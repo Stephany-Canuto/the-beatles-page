@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Flex:opsz,wght@8..144,100&family=Russo+One&family=Salsa&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+    font-family: Russo One;
+    color:white;
+}
+
+.destaque{
+    font-family: Russo One;
+    text-transform: uppercase;
+}
+
+nav {
+    padding: 0rem 1.5rem;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 8%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase ;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.introducao{
+    background-color: #0A0A0A;
+    padding: 1rem 5rem;
+    max-width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 6rem;
+    overflow: clip;
+}
+
+.introducao-conteudo{
+    display: flex;
+    flex-direction: column ;
+    gap: 2rem;
+}
+
+.conteudo-posters-conteiner {
+    max-width: 50%;
+    column-count: 4;
+    column-gap: 2rem;
+    margin: -3rem;
+}
+
+.conteudo-posters-conteiner > figure > img{
+    width: 100%;
+    border-radius:1rem;
+    padding: 0.5rem;
+}
+
+h1{
+    color: yellow;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-family: Rosso One;
+}
+
+h3 {
+    font-size: 2rem;
+    color: #8CCBDA;
+}
+.musicas{
+    padding: 2rem 10rem;
+    display: flex;
+    flex-direction: column;
+    max-width:100%;
+    width: 70%;
+    margin: auto;
+    background-color: #1D1C1C;
+    color: aliceblue;
+    border-radius: 1rem;
+}
+
+
+.musicas-cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+   
+}
+
+.titulo-musica{
+    font-family: Abril Fatface;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: orange;
+}
+
+.musicas-card-container{
+    background-color: #1D1C1C ;
+    padding: 1rem 0rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: space-between;
+}
+
+.musicas-card{
+    background-color: #2C2C2C;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    flex-basis: calc( 50% - 1rem );
+    box-sizing: border-box;
+}
+
+.musicas-cabecalho-detalhes{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5 rem;
+}
+
+.musica-descricao{
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+.musica-autor{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.faixa {
+    border-radius: 12px;
+    width: 100%;
+    height: 20%;
+    border: none;
+}
+
+.nome-autor{
+    color: antiquewhite;
+    font-size: 1rem;
+}
+
+.musica-autor > img{
+    border-radius: 20rem;
+    width: 1.5rem;
+}
+
+.titulo-saiba-mais{
+    font-size: 1rem;
+    background-color: #282828;
+    list-style: none;
+    font-family: Russo One;
+    text-transform: uppercase;
+}
+
+.conteudo-saiba-mais{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    color:  antiquewhite;
+}
+
+.playlist{
+    border: none;
+    margin: 4.5rem;
+    border-radius:12px;
+    width: 90%;
+    height: 23rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #0A0A0A;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+}
